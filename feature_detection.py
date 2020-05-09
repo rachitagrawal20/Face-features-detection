@@ -11,7 +11,7 @@ from google.colab import drive
 #mouting drive to collab
 #set root path according to your system
 drive.mount('/content/gdrive')
-root_path = 'utils/'
+root_path = 'Utils/'
 
 
 def rect_to_bb(rect):

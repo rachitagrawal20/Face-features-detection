@@ -16,15 +16,15 @@ The functions declared include
 ```
 add_facial_features(rects, image, predictor)
 ```
-rects : faces detected using dlib detector \
-image : the image you want to work on \
-predictor : dlib predictor which can predict facial features given a detected face. Here I have used dlib’s pre-trained facial landmark detector [link](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2). Download this pretrained model and move it into the `Utils` folder
+`rects` faces detected using dlib detector \
+`image` the image you want to work on \
+`predictor` dlib predictor which can predict facial features given a detected face. Here I have used dlib’s pre-trained facial landmark detector [link](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2). Download this pretrained model and move it into the `Utils` folder
 
 ```
 add_jawline(rects, image)
 ```
-rects :  faces detected using dlib detector \
-image : the image you want to work on
+`rects`  faces detected using dlib detector \
+`image` the image you want to work on
 
 
 ### Caution
